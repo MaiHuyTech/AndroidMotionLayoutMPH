@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6EC1E6"
+    app:layoutDescription="@xml/activity_motion_layout1_scene"
+    tools:context=".MotionLayout1">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baby"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="117dp" />
+    <Button
+        android:id="@+id/buttonCam"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/cam"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/buttonPic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/pic"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/buttonMic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/mic"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <Button
+        android:id="@+id/buttonMain"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/group_10"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
